@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>약 소분 계산기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>약 소분 계산기</h2>
+    <label for="weight">체중 (kg):</label>
+    <input type="text" id="weight" placeholder="체중을 입력하세요"><br>
+    <label for="pillWeight">알약 무게 (g):</label>
+    <input type="text" id="pillWeight" placeholder="알약 무게를 입력하세요"><br>
+    <label for="activeIngredient">유효성분 함량 (mg):</label>
+    <input type="text" id="activeIngredient" placeholder="유효성분 함량을 입력하세요"><br>
+    <label for="dosage">약 처방량(mg/kg):</label>
+    <input type="text" id="dosage" placeholder="약 처방량을 입력하세요"><br>
+    <label for="packets">소분 개수:</label>
+    <input type="text" id="packets" placeholder="소분 개수를 입력하세요"><br>
+    <button onclick="calculate()">계산하기</button>
+    <div id="result">
+      <p>결과:</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

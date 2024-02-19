@@ -1,0 +1,14 @@
+.calculator {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
